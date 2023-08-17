@@ -1,0 +1,186 @@
+# Jessy工作記錄
+
+
+## June 26 ~ June 30
+
+:::spoiler **June 29** 點選顯示已完成「閱讀」與「練習」內容
+* 至中研院報到。
+:::
+
+:::spoiler **June 30** 點選顯示已完成「閱讀」與「練習」內容
+* The Linux command line for beginner 
+https://ubuntu.com/tutorials/command-line-for-beginners
+* 已安裝Ubuntu在虛擬機。
+    ![](https://hackmd.io/_uploads/ryhm9CXK3.png)
+
+    
+:::
+
+## July 03 ~ July 07
+
+:::spoiler **July 03** 點選顯示已完成「閱讀」與「練習」內容
+* 參加GIS中心實習生歡迎會
+* [Ubuntu 中文簡介](https://www.linuxyes.com/blog/linuxyes-3/post/ubuntu-desktop-linux-20-04-8) (20.04 版本，仍適用)
+* File permissions https://linuxize.com/post/understanding-linux-file-permissions/
+* [Science Europe - 國際合用的研究資料管理實用指南—增訂版](https://data.depositar.io/dataset/se_rdm_guides)
+* Managing and Sharing your data
+    * https://ukdataservice.ac.uk/media/622417/managingsharing.pdf
+        * Chapter: SHARING YOUR DATA - WHY AND HOW
+        * Chapter: DATA MANAGEMENT PLANNING
+        * Chapter: DOCUMENTING YOUR DATA
+:::
+
+
+:::spoiler **July 04** 點選顯示已完成「閱讀」與「練習」內容
+* 參加GIScience in A hybrid Physical-Virtual World
+* 參加Introduction to Research Data Management (RDM)
+* nano (preferred) https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/
+* https://www.dcc.ac.uk/guidance/how-guides/how-develop-rdm-services
+    * Chapter 5. Components of an RDM service
+* 2022-07-06 研究資料管理概論
+* 2023-07-04 研究資料管理概論
+:::
+
+
+:::spoiler **July 05** 點選顯示已完成「閱讀」與「練習」內容
+* tmux (terminal multiplexer) https://linuxize.com/post/getting-started-with-tmux/
+* htop (interactive process viewer) https://hisham.hm/htop/
+* 已安裝htop在虛擬機。
+* 研究資料寄存所功能介紹
+* [Sustainable Authorship in Plain Text using Pandoc and Markdown](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown)
+* 【✅完成作業】找尋 2-3 篇你認為撰寫良好的資料管理方案（英文為主，不限主題），並以每篇 150 字內的篇幅，說明你覺得良好的理由。（可寫在個人工作報告內）
+    1. [從DMPonline觀“NTU Psychology - Culture Survey Service Evaluation”](/cnXlogAcRI--IGudeU4XdA)
+    2. [從DMPassistant觀“Open Data Practices in Engineering”](/JeCkwSPaRTmtG-w1gUsyRQ)
+:::
+
+:::spoiler **July 06** 點選顯示已完成「閱讀」與「練習」內容
+* Read [Pattern of user behaviour](https://hcommons.org/deposits/item/hc:57241/) in [HUMANITIES COMMONS. BASED ON COMMONS IN A BOX](https://hcommons.org/core/)
+* [【✅完成作業】LML 練習：MD to html & PDF (English version)](https://drive.google.com/drive/folders/1ybMKdP3u23OGCBm09tTPg-ptpw5WYhZx?usp=drive_link)
+    * 在純文字編輯器中展示文件
+        ::: spoiler 原始文件
+        
+        ![](https://hackmd.io/_uploads/ryxR9iXY2.png)
+
+        :::
+    * 輸出成果 (HTML)，並與原始文件比較 (並陳)
+        ::: spoiler
+        * 搭配LAB提供的教材，在.docx到.md的過程中加入下方的資料說明，才進行後續轉檔。
+        ```
+        title: Ontology-based patent landscape for advanced bike sharing services
+        author: Chieh Hsi Chen, Dewanti Anggrahini, Chin Yun Chang, Amy J.C. Trappey
+        date: January 20, 2023
+        fontfamily: times
+        ``` 
+        > 需要再安裝字體
+        * 不過.md轉換到.html並沒有顯示這些「說明」。而在.md轉換到.pdf才有顯示這些說明。
+            * html
+            ![](https://hackmd.io/_uploads/B1CwiiQth.png)
+            * pdf
+            ![](https://hackmd.io/_uploads/HJKOssXY2.png)
+
+
+        :::
+    * 使用 LML 的心得 (如：便利或繁瑣？轉換時的限制？遇到的問題？)
+        * 轉檔時，「圖片」的路徑設定「不能直接使用網址」，而是需要「使用該圖片在本機的位置」。然而在使用HackMD的過程中為求方便，我通常直接貼圖片的網址，造成後續於虛擬機操作pandoc時的圖片無法轉換，需要再調整位址的描述方式。 --[name=偉豪]
+        * 中文的轉檔更加麻煩，需要再輸入其他指令，如：xelatex。
+            https://sam.webspace.tw/2020/01/13/%E4%BD%BF%E7%94%A8%20Pandoc%20%E5%B0%87%20Markdown%20%E8%BD%89%E7%82%BA%20PDF%20%E6%96%87%E4%BB%B6/
+    * 輸出 (HTML) 使用的指令為何？並請解釋它
+    ![](https://hackmd.io/_uploads/HJIKsimKn.png)
+        > For output to a file, use the -o option:
+            ``` 
+            pandoc -o output.html input.txt
+            ``` 
+            [name=Pandoc User’s Guide]
+* Depositar操作手冊 https://docs.depositar.io/
+* 【✅完成作業】於 depositar demo 機，建立一個可公開的測試資料集，並填妥後設資料，及上傳至少二種不同 OpenFormat 格式的資料與資源。
+    > 資料集名稱：2023暑期實習測試資料集_YourLastName
+    > 
+    > [Depositar Demo: 2023暑期實習測試資料集_Chen](https://demo.depositar.io/en/dataset/presentation-note-youbike-in-r-d-course) [name=Chen (NTHU107048212)]
+* https://mantra.edina.ac.uk/
+    ![](https://hackmd.io/_uploads/SynItnXK3.png)
+    * [Video: Primary data versus secondary data](https://youtu.be/G8lonzDwYsQ)
+        ::: spoiler Summarized by Chatpgt
+        * Primary data refers to data that is collected directly by the researcher, while secondary data refers to data that is already available and collected by someone else.
+        * Collecting primary data is often more restricted due to limited resources, whereas secondary data analysis can utilize larger resources.
+        * The creation of primary data may involve activities like content analysis of newspapers, which can be relatively easy and straightforward.
+        * Secondary data analysis can utilize techniques like computer-assisted personal interviewing, where a handheld computer guides interviewers through a set of questions.
+        * The resources involved in creating secondary data are typically more extensive than those available to an individual researcher in a university setting.
+        * Quantitative research often uses secondary data due to its higher quality, as it is based on well-drawn random samples and can employ techniques like stratified or cluster sampling.
+        * Cognitive testing is conducted on the questions used in secondary data analysis to ensure they measure the intended variables accurately.
+        * Technological advances have made centrally created data more easily accessible through the internet, eliminating the need to request physical copies like computer tapes. Researchers can now download datasets online within minutes.
+        :::
+    * [Video: Limitations of secondary data](https://youtu.be/xlQMVV7VJtA)
+        ::: spoiler Summarized by Chatpgt
+        * Lack of control over the questions: One of the main limitations of secondary data is that the researcher has no control over the questions that were asked during data collection. The questions may not align perfectly with the researcher's specific interests or research objectives.
+        * Potential mismatch between variables: Researchers must be aware of the gap between what the variables in the secondary dataset measure and what they ideally wanted to measure. It is crucial to understand the limitations and discrepancies in the measurement of variables and not pretend they measure something they do not.
+        * Time-consuming organization: Analyzing secondary data can be time-consuming due to the need to thoroughly understand the documentation that accompanies the dataset. Researchers must invest time in comprehending the sampling methods, variable definitions, treatment of missing values, handling of "don't know" responses, and question routing to different types of respondents in the survey. These details are vital for correctly interpreting the results of the analysis.
+        * In summary, the limitations of secondary data include lack of control over questions, potential mismatch between variables, and the time-consuming process of organizing and understanding the dataset documentation.
+        :::
+* [ISO 19115-1:2014 Geographic information — Metadata ](https://www.iso.org/standard/53798.html)
+* [ISO 19115 Topic Category](https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=15)
+* [Markdown文件](https://markdown.tw/)
+* [Quick reStructuredText](https://docutils.sourceforge.io/docs/user/rst/quickref.html#paragraphs)
+* Lightweight markup language (LML)
+    * Markdown https://markdown.tw/
+    * reStructuredText (ReST) https://docutils.sourceforge.io/docs/user/rst/quickstart.html
+* CSV https://www.computerhope.com/issues/ch001356.htm
+* Tool: pandoc
+    * https://pandoc.org/installing.html#linux
+    * https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
+    * https://www.dcc.ac.uk/guidance/how-guides/how-develop-rdm-services
+        * Chapter 5. Components of an RDM service
+    * [【✅完成作業】Linux command line 練習: 完成「第22關」](https://cmdchallenge.com/#/replace_text_in_files)
+    * ![](https://hackmd.io/_uploads/Sys1LWEY2.png)
+        > [“Command Line Challenge” — Javad Solves](https://systemweakness.com/command-line-challenge-javad-solves-b591febae230)
+        > help by Chatgpt and google
+    * Read [VNCserver](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-22-04)
+:::
+
+
+:::spoiler **July 07** 點選顯示已完成「閱讀」與「練習」內容
+* 【✅完成作業】(延伸作業，選擇性) SSG 練習：使用 [Pelican](https://docs.getpelican.com/en/stable/quickstart.html)，將上述 LML 文章發布成 Blog 網站
+    * 發現雖然已經cp文件(MDtoHTMLPDF .md)到project資料夾，但是content仍然沒有任何內容。
+        * ![](https://hackmd.io/_uploads/r1MVvxHFn.png)
+    * 再將文件(MDtoHTMLPDF .md)mv到content資料夾
+        * ![](https://hackmd.io/_uploads/Byf2PeBKh.png)
+    * 順利輸出第1篇文章(MDtoHTMLPDF .md)到blog
+        * ![](https://hackmd.io/_uploads/SyypLlBYn.png)
+    * 順利輸出第2篇文章(CHNtans .md)到blog
+        * ![](https://hackmd.io/_uploads/ByaOoerYh.png)
+    * 發現虛擬機針對兩篇文章的image的本機位置出現warning，而無法順利輸出圖片，嘗試調整成直接將圖片的本機位置，調整成Google網頁上的link 。
+        > copy image link
+    * 順利輸出文字及圖片
+        * ![](https://hackmd.io/_uploads/Bykd6ZHYn.png)
+
+
+
+
+:::
+
+# Addtional Helpers from Google
+:::spoiler **Ubuntu**
+* [How to Install Ubuntu 20.04 on a Mac using VirtualBox (2020 Version)](https://www.youtube.com/watch?v=Hzji7w882OY&ab_channel=Benjamin%27sTech)
+:::
+
+:::spoiler **HackMD+Markdown語法**
+* [HackMD 使用教學](https://hackmd.io/c/tutorials-tw/%2Fs%2Ffeatures-tw)
+* [MarkDown+HackMD新手教學](https://hackmd.io/@eMP9zQQ0Qt6I8Uqp2Vqy6w/SyiOheL5N/%2FF5rjNEeLRu-oHjbgB1UVfA?type=book)
+* [Hack MD指令參考](https://hackmd.io/@justin880407/r17Q_uS2t)
+* [emoji大全](http://www.fhdq.net/emoji.html#emojidaquan)
+:::
+
+:::spoiler **Linux指令**
+* [Linux教學：ls指令](https://weikaiwei.com/linux/ls-command/)
+* [如何在Linux系统中查看IP地址](https://zh.wikihow.com/%E5%9C%A8Linux%E7%B3%BB%E7%BB%9F%E4%B8%AD%E6%9F%A5%E7%9C%8BIP%E5%9C%B0%E5%9D%80#:~:text=%E5%9C%A8%E5%A4%A7%E5%A4%9A%E6%95%B0Linux%E7%B3%BB%E7%BB%9F%E9%87%8C%E8%BE%93%E5%85%A5%E7%BB%88%E7%AB%AF%E5%91%BD%E4%BB%A4,-%E4%B8%8B%E8%BD%BDPDF%E6%96%87%E4%BB%B6&text=%E4%BD%A0%E5%8F%AF%E4%BB%A5%E5%9C%A8%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F,%E2%80%9C%E7%BB%88%E7%AB%AF%E2%80%9D%E6%9D%A5%E8%BF%9B%E8%A1%8C%E6%90%9C%E7%B4%A2%E3%80%82&text=%E8%BE%93%E5%85%A5%E4%BB%A5%E4%B8%8B%E5%91%BD%E4%BB%A4%EF%BC%9Aip%20addr,%E7%BD%91%E7%BB%9C%E8%AE%BE%E5%A4%87%E7%9A%84%E8%AF%A6%E7%BB%86%E4%BF%A1%E6%81%AF%E3%80%82&text=%E6%AF%8F%E4%B8%AA%E8%AE%BE%E5%A4%87%E7%9A%84IP%E5%9C%B0%E5%9D%80%E4%BD%8D%E4%BA%8E%E2%80%9Cinet%E2%80%9D%E5%AD%97%E7%AC%A6%E5%90%8E%E9%9D%A2%E3%80%82)
+* [How Do I Set Up Setuid, Setgid, and Sticky Bits on Linux?](https://www.liquidweb.com/kb/how-do-i-set-up-setuid-setgid-and-sticky-bits-on-linux/)
+* [How to Install and Use Nano Text Editor: A Beginner’s Tutorial](https://www.hostinger.com/tutorials/how-to-install-and-use-nano-text-editor)
+* [nano 文字編輯器 教學](https://youtu.be/Ch-wtvvD4Wk)
+* [解决sessions should be nested with care, unset $TMUX to force错误](https://blog.csdn.net/blackmanren/article/details/48243671)
+* [Error while generating the documentation](https://answers.launchpad.net/openwns-documentation/+question/58397)
+* [Pandoc User’s Guide: ##Using pandoc](https://pandoc.org/MANUAL.html#templates)
+* [使用 Pandoc 將 Markdown 轉為 PDF 文件](https://sam.webspace.tw/2020/01/13/%E4%BD%BF%E7%94%A8%20Pandoc%20%E5%B0%87%20Markdown%20%E8%BD%89%E7%82%BA%20PDF%20%E6%96%87%E4%BB%B6/)
+* [Fix Python Command Not Found Error in Linux](https://linuxhint.com/python-command-not-found-error-linux/?fbclid=IwAR3SRFzdsskkQcCqsNuwWCvqL9G8JZZCxVVGn3f_hYpziPnTmWr7cD3qFpk)
+* [Solved: "/usr/bin/python3: No module named pip" error on Linux](https://www.cyberithub.com/solved-usr-bin-python3-no-module-named-pip-error-on-linux/?fbclid=IwAR27A8BOMJ6JvQSqXMNYwfz0Opei7jv1A_KVt3yaGuwGhOq4NL5LHovq1rc)
+* [Day 10：新手殺，誰來教我離開 vim 阿～～](https://ithelp.ithome.com.tw/articles/10262153?sc=pt)
+:::
+
