@@ -1,5 +1,6 @@
 # 以維基資料註記的資源的敘述、探索、呈現
-* 0816進度說明投影片 https://docs.google.com/presentation/d/1Zw4TNZis1Ye2jPXekkpSOQdrP2YiCrCdVgI8NV_cvOA/edit#slide=id.p
+WikidataCon 2023 https://pretalx.com/wikidatacon2023/
+
 ## 1. 運用Cosine Similarity計算Wikidata關鍵字Qids' Pids、Qids、en-label發展關鍵字推薦模式——以Depositar為例
 * 專案說明：0802提案投影片 https://docs.google.com/presentation/d/11zfsz9IAYfXCh_A1UzYefOqR3pf3FXzvs9PRRD4S4Og/edit#slide=id.p
 * GitHub https://github.com/HSS107048212/2023Depositar_WikidataItem_CosineSimilarity

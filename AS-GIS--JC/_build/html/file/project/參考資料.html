@@ -342,7 +342,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -358,6 +360,14 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyterbookgithub">Jupyterbook串接Github實現線上發布</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -380,7 +390,15 @@ document.write(`
 <li><p>Hvplot document <a class="reference external" href="https://hvplot.holoviz.org/user_guide/Introduction.html">https://hvplot.holoviz.org/user_guide/Introduction.html</a></p></li>
 <li><p>104 <a class="reference external" href="https://www.104.com.tw/jobs/main/">https://www.104.com.tw/jobs/main/</a></p></li>
 <li><p>正確運用MES系統看板，讓管理變得「看得到」<a class="reference external" href="https://kknews.cc/career/qnvbkm8.html">https://kknews.cc/career/qnvbkm8.html</a></p></li>
+<li><p>Build beautiful, publication-quality books and documents from computational content. <a class="reference external" href="https://jupyterbook.org/en/stable/intro.html">https://jupyterbook.org/en/stable/intro.html</a></p></li>
+<li><p>Jupyter Book 101: Beautiful, publication-quality documents from computational material <a class="reference external" href="https://www.youtube.com/watch?v=lZ2FHTkyaMU&amp;amp;ab_channel=ChrisHoldgraf">https://www.youtube.com/watch?v=lZ2FHTkyaMU&amp;ab_channel=ChrisHoldgraf</a></p></li>
 </ul>
+<section id="jupyterbookgithub">
+<h2>Jupyterbook串接Github實現線上發布<a class="headerlink" href="#jupyterbookgithub" title="Permalink to this heading">#</a></h2>
+<p><img alt="" src="https://hackmd.io/_uploads/H1CKoD32n.jpg" />
+pip install ghp-import
+ghp-import -n -p -f _build/html</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -441,6 +459,20 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyterbookgithub">Jupyterbook串接Github實現線上發布</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

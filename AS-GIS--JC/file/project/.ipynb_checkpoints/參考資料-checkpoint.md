@@ -9,3 +9,6 @@
 * Hvplot document https://hvplot.holoviz.org/user_guide/Introduction.html
 * 104 https://www.104.com.tw/jobs/main/
 * 正確運用MES系統看板，讓管理變得「看得到」https://kknews.cc/career/qnvbkm8.html
+* Build beautiful, publication-quality books and documents from computational content. https://jupyterbook.org/en/stable/intro.html
+* Jupyter Book 101: Beautiful, publication-quality documents from computational material https://www.youtube.com/watch?v=lZ2FHTkyaMU&ab_channel=ChrisHoldgraf
+* ghp-import -n -p -f _build/html https://jupyterbook.org/en/stable/start/publish.html
