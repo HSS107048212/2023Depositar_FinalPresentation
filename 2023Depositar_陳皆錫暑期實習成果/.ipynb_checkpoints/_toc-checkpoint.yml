@@ -7,6 +7,7 @@ parts:
     - caption: 實習專案
       chapters:
         - file: file/project/intro
+        - file: file/project/未來展望
         - file: file/project/參考資料
     - caption: 工作記錄
       chapters:
