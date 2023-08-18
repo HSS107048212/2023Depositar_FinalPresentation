@@ -3,13 +3,23 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
-- file: 工作記錄_07030707
-- file: 工作記錄_07100716
-- file: 工作記錄_07170723
-- file: 工作記錄_07240730
-- file: 工作記錄_07310806
+parts:
+    - caption: 實習專案
+      chapters:
+        - file: file/project/intro
+        - file: file/project/參考資料
+    - caption: 工作記錄
+      chapters:
+        - file: file/record/intro
+        - file: file/record/工作記錄_07030707
+        - file: file/record/工作記錄_07100716
+        - file: file/record/工作記錄_07170723
+        - file: file/record/工作記錄_07240730
+        - file: file/record/工作記錄_07310806
+        - file: file/record/工作記錄_08070813
+        - file: file/record/工作記錄_08140821
+        - file: file/record/源起與心得
+
+
+
 
