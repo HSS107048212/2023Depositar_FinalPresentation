@@ -7,6 +7,11 @@ parts:
     - caption: 實習專案
       chapters:
         - file: file/project/intro
+        - file: file/project/0資料管理平台背景
+        - file: file/project/1計算關鍵字之間的相似度
+        - file: file/project/2計算資料集之間的相似度(Bottom-up)
+        - file: file/project/2計算資料集之間的相似度(Top-down)
+        - file: file/project/3視覺化儀表板
         - file: file/project/未來展望
         - file: file/project/參考資料
     - caption: 工作記錄
