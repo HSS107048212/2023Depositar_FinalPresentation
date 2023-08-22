@@ -3,7 +3,7 @@
  
 有鑑於前案Bottom-up的運算時間過長（2小時多），本專案Top-down的目標便是「降低運算時長，仍能維持一定推薦品質」。
 
-![](https://hackmd.io/_uploads/SkB2p5W6h.png)
+![](/file/project/03catagorical.jpg)
 
 具體減少運算時長的實踐步驟，原本針對全部的Wikidata關鍵字進行運算「Propert、Value、en-label」。後來改成將Depositar前50常用詞彙的Property發展成類別資料的名目尺度編碼「有就是“1”，沒有就是“0”」。
 

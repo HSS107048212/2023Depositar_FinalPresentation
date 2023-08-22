@@ -7,7 +7,7 @@
 
 由此看來，如何透過上述的含有少量wikidata的資料集來推薦其他資料集，這將是一個有趣的問題。
 
-![](https://hackmd.io/_uploads/H1pH69Zph.png)
+![](/file/project/02network.jpg)
 
 基於考量Depositar資料集關鍵字不見得很多，所以我嘗試使用前例「運用Cosine Similarity計算Wikidata item的Property、Value、en-label發展關鍵字推薦模式——以Depositar為場域」將資料集舊有的Wikidata item（Generation 0）輸入進去，產生更多推薦關鍵字（Generation 1），再將兩文件（F1、F2）的兩代關鍵字（G0、G1）進行相似度運算，加總、加權以得到兩文件之間的相似度分數。
 
