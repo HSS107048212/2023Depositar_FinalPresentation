@@ -24,6 +24,7 @@ parts:
         - file: file/record/工作記錄_07310806
         - file: file/record/工作記錄_08070813
         - file: file/record/工作記錄_08140821
+        - file: file/record/工作記錄_08210828
         - file: file/record/源起與心得
 
 
