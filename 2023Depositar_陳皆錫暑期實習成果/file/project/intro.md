@@ -23,3 +23,10 @@ WikidataCon 2023 https://pretalx.com/wikidatacon2023/
 ## 5. JupyterBook呈現2023中研院Depositar實習成果
 * Github https://github.com/HSS107048212/2023Depositar_FinalPresentation
 * 線上網頁 https://hss107048212.github.io/2023Depositar_FinalPresentation/intro.html
+
+## 專題建議：
+* 使用「時間複雜度」去顯示說明，而不是以「150分鐘版本」進行說明。
+* 如果Wikidata的填寫者不同，那麼讀取的資料就不同，所以可以Depositar導入。
+* 「後分類」對管理者的啟發是什麼？
+    * 後分類（post-classification）指的是在查詢後將檢索結果進行分類和呈現的過程。它根據時間、來源、作者等屬性將檢索結果進行分類，幫助使用者更好地導覽和決定下一步動作。一種應用方法是使用「標籤樹」框架，該框架通過組織關鍵詞並賦予其明確的屬性（如名稱、地點、時間）來增強結果的呈現和使用者理解。這是管理和簡化大量檢索結果的工具，使使用者更輕鬆地與檢索到的信息互動和利用。
+    * 「檢索後分類」 (post-query classification) 指的是，對 R(q) 進行分類，並將分類的結果呈現給使用者，讓使用者決定接下來要做什麼動作？
