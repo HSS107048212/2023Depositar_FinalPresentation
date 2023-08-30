@@ -152,7 +152,7 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../../intro.html">
-                    Welcome to Jupyter Book
+                    2023暑期實習記錄：陳皆錫
                 </a>
             </li>
         </ul>
@@ -179,6 +179,13 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="../record/%E5%B7%A5%E4%BD%9C%E8%A8%98%E9%8C%84_08140821.html">8月第三週</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../record/%E5%B7%A5%E4%BD%9C%E8%A8%98%E9%8C%84_08210828.html">8月第四週</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../record/%E6%BA%90%E8%B5%B7%E8%88%87%E5%BF%83%E5%BE%97.html">源起與心得</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">實習生活</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../AcademicLife/intro.html">Lab之外的實習生活</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../AcademicLife/Keynote%20Speech_%20Seminar.html">Keynote Speech/ Seminar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../AcademicLife/Lab%20Course.html">Lab Course</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../AcademicLife/Discussion.html">Discussion</a></li>
 </ul>
 
     </div>
@@ -372,7 +379,8 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#depositar">未能找出適切於Depositar更核心的機會點</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">實作細節</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">老師們對於專題的建議：</a></li>
 </ul>
             </nav>
         </div>
@@ -388,10 +396,35 @@ document.write(`
 <h1>未來展望<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h1>
 <p>這裡是特別想說明「要是能重來，可以再將那些是做得更好」。
 一方面提醒未來接手這個專案的人少走冤枉路。另一方面也是提醒自己，如果將來遇到類似的狀況可以藉由此次的經驗think twice。</p>
-<section id="depositar">
-<h2>未能找出適切於Depositar更核心的機會點<a class="headerlink" href="#depositar" title="Permalink to this heading">#</a></h2>
-<p>我反省這次實作的背景調查未經完整，是我有待進步的地方。
-更進一步來說，如果只是運用「競品分析」的方式比較三個資料管理平台，這樣找出來的切入點是不夠完整的，或者說不夠適切在Depositar。如果有機會進行「訪談」，也就是從「Depositar管理者」與「Depositar使用者」兩個視角的需求出發，才可以更完整理解當前符合真實Depositar使用情境的機會點。</p>
+<section id="id2">
+<h2>實作細節<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>競品分析：背景調查未經完整，是我有待進步的地方。
+更進一步來說，如果只是運用「競品分析」的方式比較三個資料管理平台，這樣找出來的切入點是不夠完整的，或者說不夠適切在Depositar。如果有機會進行「訪談」，也就是從「Depositar管理者」與「Depositar使用者」兩個視角的需求出發，才可以更完整理解當前符合真實Depositar使用情境的機會點。</p></li>
+<li><p>Wikidata完善item的內容，才可以讓後續分析、比對相似度更加有料。</p></li>
+<li><p>資料上傳者完整填答Wikidata關鍵字，並且填答的關鍵字需適切描述資料集。</p></li>
+<li><p>運算時間、推薦結果相關性，牽涉到：</p>
+<ul>
+<li><p>Property、Value、Label……</p></li>
+<li><p>Top15, Top 50, 全檢關鍵字 ……</p></li>
+</ul>
+</li>
+<li><p>不同推薦算法的使用經驗比較，會有相對剝奪感。</p></li>
+</ul>
+</section>
+<section id="id3">
+<h2>老師們對於專題的建議：<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>使用「時間複雜度」去顯示說明，而不是以「150分鐘版本」進行說明。</p></li>
+<li><p>如果Wikidata的填寫者不同，那麼讀取的資料就不同，所以可以Depositar導入。</p></li>
+<li><p>「後分類」對管理者的啟發是什麼？</p>
+<ul>
+<li><p>後分類（post-classification）指的是在查詢後將檢索結果進行分類和呈現的過程。它根據時間、來源、作者等屬性將檢索結果進行分類，幫助使用者更好地導覽和決定下一步動作。一種應用方法是使用「標籤樹」框架，該框架通過組織關鍵詞並賦予其明確的屬性（如名稱、地點、時間）來增強結果的呈現和使用者理解。這是管理和簡化大量檢索結果的工具，使使用者更輕鬆地與檢索到的信息互動和利用。</p></li>
+<li><p>「檢索後分類」 (post-query classification) 指的是，將分類的結果呈現給使用者，讓使用者決定接下來要做什麼動作？</p></li>
+</ul>
+</li>
+<li><p>接下來可以從使用者的使用經驗發展evaluate方式，至於如何蒐集「使用經驗」？以及如何發展evaluate？則需要再找他人共同協助討論。</p></li>
+</ul>
 </section>
 </section>
 
@@ -462,7 +495,8 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#depositar">未能找出適切於Depositar更核心的機會點</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">實作細節</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">老師們對於專題的建議：</a></li>
 </ul>
   </nav></div>
 
