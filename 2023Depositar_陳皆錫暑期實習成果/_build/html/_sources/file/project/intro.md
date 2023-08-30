@@ -1,5 +1,9 @@
 # 以維基資料註記的資源的敘述、探索、呈現
-WikidataCon 2023 https://pretalx.com/wikidatacon2023/
+* Depositar2023實習成果說明_陳皆錫 https://docs.google.com/presentation/d/1Xya8Qex0fYDlGdkN2ic-vfGxpvP_qFngyrqObE-o514/edit?usp=sharing
+* data.depositar.io 帳號: [jessy-chen](https://data.depositar.io/en/user/jessy-chen)
+* Jb: https://hss107048212.github.io/2023Depositar_FinalPresentation/intro.html
+* Github:https://github.com/HSS107048212
+* 日後可以參加的研討會：WikidataCon 2023 https://pretalx.com/wikidatacon2023/
 
 ## 1. 運用Cosine Similarity計算Wikidata關鍵字Qids' Pids、Qids、en-label發展關鍵字推薦模式——以Depositar為例
 * 專案說明：0802提案投影片 https://docs.google.com/presentation/d/11zfsz9IAYfXCh_A1UzYefOqR3pf3FXzvs9PRRD4S4Og/edit#slide=id.p
@@ -23,3 +27,4 @@ WikidataCon 2023 https://pretalx.com/wikidatacon2023/
 ## 5. JupyterBook呈現2023中研院Depositar實習成果
 * Github https://github.com/HSS107048212/2023Depositar_FinalPresentation
 * 線上網頁 https://hss107048212.github.io/2023Depositar_FinalPresentation/intro.html
+

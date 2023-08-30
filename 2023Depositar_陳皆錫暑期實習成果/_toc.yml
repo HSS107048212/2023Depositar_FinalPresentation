@@ -26,6 +26,12 @@ parts:
         - file: file/record/工作記錄_08140821
         - file: file/record/工作記錄_08210828
         - file: file/record/源起與心得
+    - caption: 實習生活
+      chapters:
+        - file: file/AcademicLife/intro
+        - file: file/AcademicLife/Keynote Speech_ Seminar
+        - file: file/AcademicLife/Lab Course
+        - file: file/AcademicLife/Discussion
 
 
 
